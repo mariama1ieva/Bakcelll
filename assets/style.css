@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header-top{
+    border: 1px solid rgb(204, 199, 199);
+    border-top: none;
+    border-inline-end: none;
+    width: 100%;
+    height: 50px;
+
+}
+
+#header-top .left ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+   
+}
+#header-top .left ul li a{
+text-decoration: none;
+margin-top: 10px;
+}
+#header-top .left li:nth-child(3){
+    border: 1px solid rgb(204, 199, 199);
+    width: 120px;
+    height: 40px;
+    border-top: none;
+    border-bottom: none;
+}
+
+#header-top .left li:nth-child(3):hover{
+    opacity: 0.7;
+    transition: 0.3s;
+
+}
+#header-top .left li:nth-child(1){
+    border: 4px solid rgb(255, 2, 2);
+    width: 60px;
+    height: 50px;
+    border-top: none;
+    border-inline-end: none;
+    border-inline-start: none;
+}
+
+#header-top .right{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+#header-top .right .help ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+#header-top .right .help ul li a{
+    color: black;
+    text-decoration: none;
+}
+#header-top .right .help ul{
+    border: 1px solid rgb(204, 199, 199);
+    width: 200px;
+    height: 30px;
+    border-bottom: none;
+    border-top: none;
+    border-inline-start: none;
+    cursor: pointer;
+}
+#header-top .right .language ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+#header-top .right .language ul li:nth-child(1){
+    border: 1px solid rgb(146, 139, 139);
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+}
+#header-top .right .language ul li a:nth-child(1){
+    padding: 3px;
+   margin-left: 10px;
+   text-decoration: none;
+   color: rgb(146, 139, 139) ;
+}
+#header-top .right .language ul li:nth-child(2){
+    border: 1px solid rgb(146, 139, 139);
+    width: 65px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 3px;
+    cursor: pointer;
+}
+#header-top .right .language ul li i:nth-child(2){
+   margin-left: 10px;
+}
+#header-down {
+    margin-left: 100px;
+    border: 1px solid rgb(204, 199, 199);
+    border-top: none;
+    height: 70px;
+    background-color: white;
+    border-inline-start: none;
+    border-inline-end: none;
+    
+}
+#header-down .tariffs{
+    display: flex;
+    gap: 30px;
+}
+#header-down .tariffs ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    list-style: none;
+}
+#header-down .tariffs ul a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+
+}
+#header-down .tariffs ul a:hover{
+    color: red;
+}
+#header-down  .down-right{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+#header-down .popular{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-left: 70px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#header-down .popular svg{
+    width: 15px;
+    height: 15px;
+ 
+}
+#header-down  .down-right .join{
+    margin-top: 10px;
+     border: 1px solid rgb(225, 224, 224);
+    border-inline-end: none;
+    border-inline-start: none;
+    border-bottom: none;
+    border-top: none;
+    height: 20px;
+}
+#header-down  .down-right .join a{
+    color: red;
+    text-decoration: none;
+    margin-left: 10px;
+  
+}
+#header-down  .down-right .enter a{
+    color: red;
+    text-decoration: none;
+    
+}
+#header-down  .down-right .enter{
+    cursor: pointer;
+    margin-top: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+#header-down  .down-right .enter:hover{
+    border: 2px solid rgb(255, 0, 0);
+    transition: 0.3s;
+}
+#slider{
+    background-color:  #E00034;
+    width: 100%;
+    height: 600px;
+}
+#slider .right .image img{
+    height: 600px;
+    width: 800px;
+
+}
+#slider .left {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+#slider .left h1{
+    font-size: 50px;
+}
+#slider .left button{
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color: #E00034;
+    border: 0px;
+    font-size: larger;
+    
+}
+#slider .left .text .dots {
+    gap: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+
+#card .card-head{
+    margin-top: 100px;
+    display: flex;
+    margin-left: 130px;
+    gap: 30px;  
+}
+
+#card .row {
+    margin: 120px;
+}
+
+#card  .card-up h2{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#card .card-head i{
+    margin-top: 25px;
+    font-size: 50px;
+}
+#card .card-detail{
+    cursor: pointer;
+    border: 2px solid rgb(227, 227, 227);
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+#card .card-detail:hover{
+    border: 2px solid rgb(222, 4, 4);
+    transition: 0.3s;
+}
+#card .card-detail .call{
+    display: flex;
+    margin-left: 30px;
+}
+
+#card .card-detail .call .linknumber ul{
+    cursor: pointer;
+    display: flex;
+    gap: 3px;
+    list-style: none;
+}
+#card .card-detail .call .linknumber li{
+    width: 15px;
+    height: 25px;
+    background-color: rgb(215, 212, 212);
+    border-radius: 5px;
+}
+#card .card-detail .call .linknumber li:hover{
+    background-color: rgb(159, 159, 159);
+}
+#card .card-detail .call .linknumber span{
+margin-left: 3px;
+}
+#card .card-up{
+    border: 1px solid rgb(223, 215, 215);
+    border-top: none;
+    border-inline-end: none;
+    border-inline-start: none;
+    width: 350px;
+    margin-left: 30px;
+}
+.card-main{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    gap: 30px;
+}
+.card-main .card-text{
+    line-height: 5px;
+}
+.card-main .card-text b{
+    font-size: 23px;
+}
+.card-main .icon{
+    font-size: larger;
+}
+.card-down{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+}
+.button button{
+    background-color: #E00034;
+    color:white;
+    width: 250px;
+    height: 55px;
+    border-radius: 15px;
+    border: 0px;
+    margin-left: 70px;
+   
+}
+#sim .eSim{
+   margin-left: 150px;
+    width: 1200px;
+    height: 420px;
+    background-color: #E00034;
+    border-radius: 20px;
+}
+#sim .left {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 300px;
+}
+#sim .left h1{
+    font-size: 50px;
+}
+#sim .left button{
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color: #E00034;
+    border: 0px;
+    font-size: larger;
+    
+}
+#mobile-app .application{
+    margin-top: 100px;
+    background-color: #E6E6E6;
+    width: 1200px;
+    height: 700px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+#mobile-app .application .image{
+    margin-top: 100px;
+}
+#mobile-app .application .text{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#mobile-app .application .text a{
+    text-decoration: none;
+    color: #E00034;
+}
+#mobile-app .application .store{
+   
+    margin-top: 200px;
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+}
+#mobile-app .application .apple-play{
+    cursor: pointer;
+}
+#mobile-app .application .store .qr b{
+    color: #E00034;
+}
+#mobile-app .application .for-more{
+    cursor: pointer;
+    display: flex;
+    width: 350px;
+    height: 130px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: #E6E6E6;
+}
+#mobile-app .application .for-more:hover{
+    background-color: #E00034;
+    transition: 0.3s;
+}
+#mobile-app .application .for-more .detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#mobile-app .application .for-more .detail .icon{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#sim-card .mini-card{
+    margin-left: 150px;
+     width: 1200px;
+     height: 420px;
+     background-color: #E00034;
+     border-radius: 20px;
+ }
+ #sim-card .left {
+     color: white;
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     margin-right: 300px;
+ }
+ #sim-card .left h1{
+     font-size: 50px;
+ }
+ #sim-card .left button{
+     margin-top: 50px;
+     width: 150px;
+     height: 60px;
+     border-radius: 10px;
+     color: #E00034;
+     border: 0px;
+     font-size: larger;
+     
+ }
+ #sim-card .mini-card img{
+    width: 600px;
+    height: 100px;
+ }
+
