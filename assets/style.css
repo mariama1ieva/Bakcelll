@@ -391,10 +391,11 @@ margin-left: 3px;
     margin-top: 50px;
 }
 #sim-card .mini-card{
+    margin-top: 100px;
     margin-left: 150px;
      width: 1200px;
      height: 420px;
-     background-color: #E00034;
+     background-color: #F4F4F4;
      border-radius: 20px;
  }
  #sim-card .left {
@@ -404,21 +405,164 @@ margin-left: 3px;
      margin-top: 100px;
      margin-right: 300px;
  }
- #sim-card .left h1{
-     font-size: 50px;
+ #sim-card .left {
+    color: black;
  }
  #sim-card .left button{
      margin-top: 50px;
      width: 150px;
      height: 60px;
      border-radius: 10px;
-     color: #E00034;
+     background-color: #E00034;
      border: 0px;
      font-size: larger;
+     color: white;
      
  }
  #sim-card .mini-card img{
-    width: 600px;
-    height: 100px;
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
  }
 
+ #number .left{
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: #F7F7F7;
+    width: 750px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    gap: 150px;
+ }
+
+ #number .left .color{
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+ #number .left .color button{
+    border-radius: 10px;
+    width: 70px;
+    color: #a5a4a4;
+ }
+ #number .left .more {
+    margin-top: 10px;
+ }
+ #number .left .more a{
+    text-decoration: none;
+    color: #E00034;
+ }
+ #number .left .num{
+    color: #E00034;
+
+ }
+ #news .head{
+    margin-top: 100px;
+    margin-left: 150px;
+ }
+ #news .head .icon{
+    display: flex;
+    gap: 20px;
+ }
+ #news .head .icon i{
+    margin-top: 25px;
+ }
+ #news .head .formore button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: #E00034;
+    background-color: white;
+    margin-left: 200px;
+ }
+ #news .head .formore button:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+ }
+ #news .slide{
+    cursor: pointer;
+    gap: 50px;
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+ }
+ #news .slide .card p{
+opacity: 0.7;
+ }
+ .up{
+    margin-top: 100px;
+    background-color: #333333;
+    width: 100%;
+    height: 800px;
+ }
+ .up .img{
+    border: 1px rgb(214, 214, 214) solid;
+    width: 80%;
+    height: 150px;
+    border-inline-end: none;
+    border-inline-start: none;
+    border-top: none;
+    margin-left: 100px;
+   
+ }
+.up .img img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+}
+.up .main{
+
+    border: 1px rgb(214, 214, 214) solid;
+    width: 80%;
+    height: 450px;
+    border-inline-end: none;
+    border-inline-start: none;
+    border-top: none;
+    margin-left: 100px;
+}
+.up .main .information{
+    display: flex;
+    gap: 50px;
+}
+.up .main .about {
+    margin-top: 50px;
+}
+.up .main .about h2{
+    color: white;
+}
+.up .main .about ul{
+    list-style: none;
+}
+.up .main .about ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    line-height: 30px;
+}
+.up .main .about ul li a:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.down{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.down .email h2{
+    color: white;
+}
+.down .email .button input{
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #333333;
+}
+.down .email .button button{
+    width: 200px;
+}
+.down .sosial{
+    font-size: larger;
+    margin-top: 20px;
+    opacity: 0.7;
+}
